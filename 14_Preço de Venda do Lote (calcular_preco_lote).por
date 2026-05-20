@@ -5,13 +5,13 @@ programa {
     leia(lote)
     escreva("insira a quantidade de lucro desejada (em porcentagem %): ")
     leia(percent)
-    total_lote(lote, percent, total)
+    
+    escreva("o valor total de frabricaçao do lote mais a porcentagem de lucro desejada ira ficar: ", total_lote(lote, percent, total) )
   }
-  funcao total_lote(real lote, real percent, real total){
+  funcao real total_lote(real lote, real percent, real total){
     total = lote * (percent / 100)
     total = lote + total
-    escreva("o valor total de frabricaçao do lote mais a porcentagem de lucro desejada ira ficar: ", total)
-
-
+   
+    retorne total
   }
 }

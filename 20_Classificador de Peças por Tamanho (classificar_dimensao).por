@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    real comprimento, resultado, dimen
+    real comprimento, resultado
     escreva("Digite o comprimento de sua chapa em centímetros: \n")
     leia(comprimento)
     escreva("Sua peça é : ")

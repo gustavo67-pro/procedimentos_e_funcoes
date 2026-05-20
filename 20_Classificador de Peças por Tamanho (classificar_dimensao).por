@@ -20,11 +20,3 @@ programa {
     retorne resultado
   }
 }
-
-
-
-
-//Especificação: A função recebe o comprimento de uma chapa em
-//centímetros (real). Se for menor que 50.0cm, retorna "Pequena". Se
-//estiver entre 50.0cm e 100.0cm, retorna "Média". Se for maior que
-//100.0cm, retorna "Grande".

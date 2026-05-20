@@ -8,12 +8,12 @@ programa {
     escreva("insira a quantidade de horas que ela ficou ligada: ")
     leia(horas)
     
-    conta_de_luz(horas, conta, wa)
+    escreva("a maquina consome: ", conta_de_luz(horas, conta, wa), "kwh")
   }
-  funcao conta_de_luz(real horas, inteiro conta, inteiro wa){
+  funcao real conta_de_luz(real horas, inteiro conta, inteiro wa){
     conta = wa / horas
    
-    escreva("a maquina consome: ", conta, "kwh")
+    retorne conta
 
   }
 }
